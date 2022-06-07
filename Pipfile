@@ -8,6 +8,7 @@ setuptools = "*"
 pandas = "*"
 pipfile = "*"
 matplotlib = "*"
+twine = "*"
 
 [dev-packages]
 
