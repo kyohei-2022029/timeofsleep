@@ -28,9 +28,9 @@ ax.grid(which = "both", axis="y")
 ax.grid(axis="x")
 ax.scatter(x,y)
 
-ax.set_title('Hourly sleep quality [%]')
+ax.set_title('Hourly sleep quality ')
 ax.set_xlabel('time of sleeping [h]')
-ax.set_ylabel('Sleep quality')
+ax.set_ylabel('Sleep quality[%]')
 
 ax.set_xlim(0, df["Time in bed"].max())
 ax.set_xticks([0, 5, 6, 7, 8, 9, 10, 11])
